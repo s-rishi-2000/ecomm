@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="card border border-info" style="width: 50%;">
+    <h2>Registration Form</h2>
+    <form [formGroup]="registerForm" (ngSubmit)="submit()">
+      <label for="companyname">Company Name</label>
+      <input type="text" id="companyname" formControlName="companyname" placeholder="Enter your Company Name"/>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" formControlName="name" placeholder="Enter your full name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" formControlName="email" placeholder="Enter your email" />
+
+      <label for="">Mobile Number</label>
+      <input type="tel" id="mobile_number" formControlName="mobile" placeholder="Enter your mobile number"/>
+
+      <label for="new-password">New Password</label>
+      <input type="password" id="new-password" formControlName="password" placeholder="Enter your new password"/>
+      <button type="submit" >Register</button>
+    </form>
+    <div class="switch">
+      Already have an account?
+      <a routerLink="/seller" >Login here</a>
+    </div>
+  </div>
+</div>

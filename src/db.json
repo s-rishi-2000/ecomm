@@ -1,0 +1,41 @@
+{
+  "seller": [
+    {
+      "name": "rushikesh",
+      "password": "etryfgh",
+      "id": 1
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "safdaf",
+      "password": "fdfdf",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "dfdx",
+      "password": "zdfx",
+      "id": 6
+    },
+    {
+      "name": "ert",
+      "password": "drf",
+      "id": 7
+    }
+  ],
+  "login": [],
+  "register": []
+}
