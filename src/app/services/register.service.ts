@@ -9,6 +9,6 @@ export class RegisterService {
   constructor(private http:HttpClient) { }
 
   registration(data:object){
-    return this.http.post('http://localhost:3000/register',data)
+    return this.http.post('http://localhost:8080/register/user',data)
   }
 }

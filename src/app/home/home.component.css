@@ -95,3 +95,30 @@ button:hover {
   h2 ,p{
     color: rgb(239, 136, 243);
   }
+
+  /* .card{
+    width: 18rem;
+  } */
+
+#carousel_items{
+    margin-top: 12px;
+    background-color: white;
+    text-align: center;
+    height:350px;
+}
+#carouselExampleControls{
+    margin-top: 20px;
+}
+#carousel_items #c_i_1{
+    padding:30px;
+    font-size: 20px;
+    padding-top: 100px;
+}
+#carousel_items #c_i_1 p{
+    color: blue;
+}
+#c_images{
+    height:300px;
+    width: 200px;
+    padding-top: 50px;
+}

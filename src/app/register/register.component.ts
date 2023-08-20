@@ -12,11 +12,12 @@ export class RegisterComponent {
   constructor(private register:RegisterService,private router:Router){}
 
   registerForm = new FormGroup({
-    companyname : new FormControl(''),
-    name : new FormControl(''),
-    email : new FormControl(''),
-    mobile : new FormControl(''),
-    password : new FormControl('')
+    username : new FormControl(''),
+    password : new FormControl(''),
+    firstName : new FormControl(''),
+    lastName : new FormControl(''),
+    mobileNumber : new FormControl(''),
+    email : new FormControl('')
   })
   
   submit(){

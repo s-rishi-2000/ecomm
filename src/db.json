@@ -36,6 +36,27 @@
       "id": 7
     }
   ],
-  "login": [],
+  "login": [
+    {
+      "name": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 4
+    }
+  ],
   "register": []
 }
